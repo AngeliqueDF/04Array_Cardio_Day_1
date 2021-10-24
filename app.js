@@ -1,14 +1,14 @@
 // Get your shorts on - this is an array workout!
 // ## Array Cardio Day 1
 
-import { inventorsBorn1500s } from "./modules/Exercises/inventorsBorn1500s.js";
-import { inventorsFullnames } from "./modules/Exercises/inventorsFullnames.js"
-import { sortedByBirthDate } from "./modules/Exercises/sortByBirthDate.js"
-import { totalYearsLived } from "./modules/Exercises/totalYearsLived.js";
-import { sortedByYearsLived } from "./modules/Exercises/sortByYearsLived.js"
-import { sortedByLastName } from "./modules/Exercises/sortByLastName.js";
-import { summedItems } from "./modules/Exercises/sumItemsInstances.js";
-import { parisBoulevardsFound } from "./modules/Exercises/getBoulevards.js"
+import { inventorsBorn1500s } from "./Exercises/inventorsBorn1500s.js";
+import { inventorsFullnames } from "./Exercises/inventorsFullnames.js"
+import { sortedByBirthDate } from "./Exercises/sortByBirthDate.js"
+import { totalYearsLived } from "./Exercises/totalYearsLived.js";
+import { sortedByYearsLived } from "./Exercises/sortByYearsLived.js"
+import { sortedByLastName } from "./Exercises/sortByLastName.js";
+import { summedItems } from "./Exercises/sumItemsInstances.js";
+import { parisBoulevardsFound } from "./Exercises/getBoulevards.js"
 
 // Array.prototype.filter()
 // 1. Filter the list of inventors for those who were born in the 1500's
