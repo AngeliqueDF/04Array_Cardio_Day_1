@@ -12,14 +12,12 @@ import { parisBoulevardsFound } from "./modules/Exercises/getBoulevards.js"
 
 // Array.prototype.filter()
 // 1. Filter the list of inventors for those who were born in the 1500's
-console.log(
-    `1. Filter the list of inventors for those who were born in the 1500's`,
+console.log(`1. Filter the list of inventors for those who were born in the 1500's`,
     inventorsBorn1500s)
 
 // Array.prototype.map()
 // 2. Give us an array of the inventors' first and last names
-console.log(
-    `2. Give us an array of the inventors' first and last names`, inventorsFullnames)
+console.log(`2. Give us an array of the inventors' first and last names`, inventorsFullnames)
 
 // Array.prototype.sort()
 // 3. Sort the inventors by birthdate, oldest to youngest

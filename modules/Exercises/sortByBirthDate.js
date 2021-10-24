@@ -1,8 +1,16 @@
 import { inventors } from "../../data.js";
 
 function sortByBirthDate(data) {
-    const result = data.sort((a, b) => {
-        return a.year > b.year ? 1 : -1;
+
+    let inventorsArray = data;
+    let result = [];
+
+    let sorted = inventorsArray.sort((a, b) => {
+        return b.year - a.year
+    });
+
+    sorted.forEach(e => {
+        result.push(e)
     });
 
     return result
