@@ -1,4 +1,4 @@
-This is the first array cardio challenge from JavaScript30 to practice using higher order functions to solve a problem.
+This challenge from JavaScript30 is a practice to use higher order functions to solve a problem.
 
 View the comments in app.js to see what each exercise consists in.
 
