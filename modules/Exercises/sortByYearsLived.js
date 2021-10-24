@@ -1,7 +1,9 @@
 import { inventors } from "../../data.js";
 
 function sortByYearsLived(data) {
-    const sortedByYearsLived = inventors.sort((a, b) => {
+    let inventorsArray = data
+
+    const sortedByYearsLived = inventorsArray.sort((a, b) => {
         return a.passed - a.year > b.passed - b.year ? 1 : -1;
     });
 

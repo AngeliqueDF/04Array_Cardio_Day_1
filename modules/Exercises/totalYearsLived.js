@@ -1,7 +1,7 @@
 import { inventors } from "../../data.js";
 
 function calculateTotalYearsLived(data) {
-    const yearsLived = inventors.reduce((accumulator, currentValue) => {
+    const yearsLived = data.reduce((accumulator, currentValue) => {
         return accumulator + (currentValue.passed - currentValue.year);
     }, 0);
 
