@@ -14,7 +14,13 @@ function sortByLastName(data) {
     const lastNames = getLastNames(data)
 
     const sortedByLastName = lastNames.sort((a, b) => {
-        return a.last > b.last ? 1 : -1;
+        if (a < b) {
+            return -1;
+        }
+        if (a > b) {
+            return 1;
+        }
+        return 0;
     });
 
     return sortedByLastName
