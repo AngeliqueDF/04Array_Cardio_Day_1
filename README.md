@@ -4,4 +4,4 @@ This challenge from JavaScript30 was designed to practice using higher order fun
 )
 
 * View the comments in app.js to see what each exercise consists in.
-* My solution for each exercise is organized in modules, in ```/Exercises```.
+* My solution for each exercise is organized in modules, located in the ```/Exercises``` folder.
