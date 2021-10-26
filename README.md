@@ -1,5 +1,7 @@
-This challenge from JavaScript30 is a practice to use higher order functions to solve a problem.
+This challenge from JavaScript30 was designed to practice using higher order functions.
 
-View the comments in app.js to see what each exercise consists in.
+[See the live version hosted on Github Pages](https://github.com/angelique-df/04Array_Cardio_Day_1/deployments/activity_log?environment=github-pages
+)
 
-Open index-START.html and open the console to see the results of the functions I wrote.
+* View the comments in app.js to see what each exercise consists in.
+* My solution for each exercise is organized in modules, in ```/Exercises```.
