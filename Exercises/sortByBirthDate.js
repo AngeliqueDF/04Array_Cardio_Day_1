@@ -1,4 +1,4 @@
-import { inventors } from "../../data.js";
+import { inventors } from "./../data.js";
 
 function sortByBirthDate(data) {
 
