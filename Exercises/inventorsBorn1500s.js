@@ -1,4 +1,4 @@
-import { inventors } from "../../data.js";
+import { inventors } from "./../data.js";
 
 function filterInvestorsBorn1500s(data) {
     return data.filter(

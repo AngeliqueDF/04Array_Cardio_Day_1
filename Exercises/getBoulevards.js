@@ -1,4 +1,4 @@
-import { parisBoulevards } from "../../data.js";
+import { parisBoulevards } from "./../data.js";
 
 function findBoulevards(data) {
     return data.filter((boulevard) => /( de )/i.test(boulevard))
