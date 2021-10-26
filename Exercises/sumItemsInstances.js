@@ -1,4 +1,4 @@
-import { transportation } from "./../../data.js"
+import { transportation } from "./../data.js"
 
 function reduceItems(data) {
     const summedItems = data.reduce(function (allTransportation, transportation) {
